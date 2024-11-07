@@ -1,0 +1,158 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<title>Details</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <style type="text/css">
+<!--
+.style1 {
+	color: #faf8f8;
+	font-weight:light;
+  font-size:50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+-->
+        </style>
+	    <head>
+
+
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+
+		<style>
+			body {background-color: cadetblue;
+			}
+			.container-fluid {padding:50px;}
+			.container{background-color:white;padding:50px;   }
+			#title{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+			.text-uppercase{
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+			}
+        .style2 {color: #f8f8f3;font-size:25;}
+        .style3 {color: #FFFFFF; font-size:25;}
+.style5 {font-weight: bold}
+        .style6 {color: #FFFFFF; font-weight: bold; }
+        </style>
+	</head>
+	<body>
+	<div class="container-fluid">
+		<div>
+			<h2 class="text-center style1" id="title">Assessing DDoS Detection Accuracy
+        through Semi-Supervised Techniques
+        
+</h2>
+			 <!--<p class="text-center">
+				<span class="style1"><small id="passwordHelpInline" class="text-muted">DDoS attacks, machine learning, random forest, XGBoost, prediction.
+
+</small></span></p>-->
+			 <hr>
+			<div class="row">
+				<div class="col-md-5">
+ 					<form role="form" method="POST" >
+						{% csrf_token %}
+						<fieldset>
+                            <p>{% load static %}
+				              <!--<img src="{% static '/Register.jpg' %}" alt="My image">--><br><br>
+					          <span class="style1 style22">REGISTER:</span>      </p>
+                        <table width="825" border="0" align="center">
+                        <tr>
+                          <td width="200" bgcolor:"white"><span class="style19 style2"><strong>Username: </strong></span></td>
+                          <td width="200"><span class="form-group">
+                            <input type="text" name="username" id="username"  placeholder="User Name" required="required" />
+                          </span></td>
+                          <td width="200" bgcolor:"white"><span class="style3 style22 style2"><strong>Password:</strong></span></td>
+                          <td width="200"><span class="form-group">
+                            <input type="password" name="password" id="password"  placeholder="Password" required="required" />
+                          </span></td>
+                        </tr>
+                        <tr>
+                          <td height="60" bgcolor:"white"><span class="style19 style2"><strong>E-Mail Id: </strong></span></td>
+                          <td><span class="form-group">
+                            <input type="email" name="email" id="email"  placeholder="E-mail " required="required" />
+                          </span></td>
+                          <td bgcolor:"white"><span class="style3 style22 style2"><strong>Address: </strong></span></td>
+                          <td><span class="form-group">
+                            <textarea name="address" placeholder="Enter Address "></textarea>
+                          </span></td>
+                        </tr>
+                        <tr>
+                          <td height="30" bgcolor:"white"><span class="style19 style2"><strong>Gender: </strong></span></td>
+                          <td><select name="gender">
+						  <option>----Select Gender ----</option>
+						  <option>Male</option>
+						  <option>Female</option>
+                          </select>                          </td>
+                          <td height="30" bgcolor:"white"><span class="style3 style22 style2"><strong>Mobile Number: </strong></span></td>
+                          <td><span class="form-group">
+                            <input type="number" name="phoneno" id="phoneno"  placeholder="Mobile Number " required="required" />
+                          </span></td>
+                        </tr>
+                        <tr>
+                          <td height="50" bgcolor:"white"><span class="style19 style2"><strong>Country: </strong></span></td>
+                          <td><span class="form-group">
+                            <input type="text" name="country" id="country"  placeholder="Country " required="required" />
+                          </span></td>
+                          <td bgcolor:"white"><span class="style3 style22 style2"><strong>State: </strong></span></td>
+                          <td><span class="form-group">
+                            <input type="text" name="state" id="state"  placeholder="State " required="required" />
+                          </span></td>
+                        </tr>
+                        <tr>
+                          <td bgcolor:"white"><span class="style19 style2"><strong>City: </strong></span></td>
+                          <td><span class="form-group">
+                            <input type="text" name="city" id="city"  placeholder="City " required="required" />
+                          </span></td>
+                          <td bgcolor:"white">&nbsp;</td>
+                          
+                          <td><input type="submit" class="btn btn-lg btn-primary" name="submit"  value="Register" /></td>
+                        </tr>
+                      </table>
+					  </fieldset>
+						<div><br>
+						  <button class="btn btn-lg ">
+ 					</form>
+				</div>
+                <table width="513" border="0" align="center" >
+                                    <tr><td width="424" bgcolor:"white"><div align="center" class="style23">
+                                      <div align="left"><span class="style2"><strong>Registered Status</strong></span><span class="style7 style2 style5"> ::</span>  <span class="style8 style3"><strong>{{object}}</strong></span></div>
+                                    </div></td>
+
+    </table>
+
+
+                <br>
+                <p align="center"><span class="active"><span class="style12 style10 style1"><a href="{% url 'login' %}"></a></span></span></p>
+                <table width="272" border="0" align="center">
+                  <tr>
+                    <td bgcolor:"white"><div align="center"><a href="{% url 'login' %}" class="style6"> Remote User <span class="style10 style12">|</span></a></div></td>
+                    <td bgcolor:"white"><div align="center"><a href="{% url 'serviceproviderlogin' %}" class="style6"> Service Provider </a></div></td>
+                  </tr>
+                </table>
+                <p align="center">&nbsp;</p>
+                <div class="col-md-2">
+					<!-------null------>
+				</div>
+
+				<div class="col-md-5">				</div>
+			</div>
+		</div>
+
+	</div>
+	</body>
+
+
+</html>

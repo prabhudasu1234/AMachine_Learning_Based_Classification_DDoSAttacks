@@ -1,0 +1,182 @@
+{% extends 'RUser/Header.html' %}
+{% block userblock %}
+
+
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+
+		<style>
+			body {background-color:#ffffff;}
+			.container-fluid {padding:50px;}
+			.container{background-color:white;padding:50px;   }
+			#title{font-family: 'Fredoka One', cursive;
+}
+			.text-uppercase{
+			font-family: 'Righteous', cursive;
+
+			}
+			.tweettext{
+
+    border: 2px solid yellowgreen;
+    width: 904px;
+    height: 202px;
+    overflow: scroll;
+    background-color:;
+}
+		.style1 {
+	color:#5f9ea0;
+	font-weight: bold;
+}
+.style4 {color:cadetblue; font-weight: bold;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: larger; }
+.style6 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+}
+        .style7 {color: #ffffff}
+        </style>
+
+	<body>
+	<div class="container-fluid">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-5">
+
+                   <form role="form" method="POST" >
+						{% csrf_token %}
+						<fieldset>
+                          
+
+                                {% csrf_token %}
+                                <table width="1003" align="center">
+                                  <tr>
+                                    <td height="44" colspan="4" bgcolor:"white"><div align="center" class="style4">ENTER DATA SET DETAILS HERE !!! </div></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center"><span class="style4">Enter RID</span></div></td>
+                                    <td><input type="text" name="RID"></td>
+                                    <td bgcolor:"white"><div align="center"><span class="style4">Enter Protocol</span></div></td>
+                                    <td><input type="text" name="Protocol"></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center"><span class="style4">Entercip_src</span></div></td>
+                                    <td><input type="text" name="ip_src"></td>
+                                    <td bgcolor:"white"><div align="center"><span class="style4">Enter ip_dst</span></div></td>
+                                    <td><input type="text" name="ip_dst"></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center"><span class="style4">Enter pro_srcport</span></div></td>
+                                    <td><input type="text" name="pro_srcport"></td>
+                                    <td bgcolor:"white"><div align="center"><span class="style4">Enter pro_dstport</span></div></td>
+                                    <td><input type="text" name="pro_dstport"></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center"><span class="style4"><strong>Enter</strong></span> <span class="style4">flags_ack</span></div></td>
+                                    <td><select name="flags_ack">
+                                        <option>---Select---</option>
+                                        <option>0</option>
+                                        <option>1</option>
+                                      </select></td>
+                                    <td bgcolor:"white"><div align="center"><span class="style4">Enter ip_flags_mf</span></div></td>
+                                    <td><select name="ip_flags_mf">
+                                      <option>---Select---</option>
+                                      <option>0</option>
+                                      <option>1</option>
+                                    </select>                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center"><span class="style4">Enter ip_flags_df</span></div></td>
+                                    <td><select name="ip_flags_df">
+                                      <option>---Select---</option>
+                                      <option>0</option>
+                                      <option>1</option>
+                                    </select></td>
+                                    <td bgcolor:"white"><div align="center"><span class="style4">Enter ip_flags_rb</span></div></td>
+                                    <td><select name="ip_flags_rb">
+                                      <option>---Select---</option>
+                                      <option>0</option>
+                                      <option>1</option>
+                                    </select></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center"><span class="style4">Enter pro_seq</span></div></td>
+                                    <td><select name="pro_seq">
+                                      <option>---Select---</option>
+                                      <option>0</option>
+                                      <option>1</option>
+                                    </select></td>
+                                    <td bgcolor:"white"><div align="center"><span class="style4">Enter pro_ack</span></div></td>
+                                    <td><select name="pro_ack">
+                                      <option>---Select---</option>
+                                      <option>0</option>
+                                      <option>1</option>
+                                    </select></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center"><span class="style4">Enter frame_time</span></div></td>
+                                    <td><input type="text" name="frame_time"></td>
+                                    <td bgcolor:"white"><div align="center"><span class="style4">Enter Packets</span></div></td>
+                                    <td><input type="text" name="Packets"></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center"><span class="style4">Enter Bytes1</span></div></td>
+                                    <td><input type="text" name="Bytes1"></td>
+                                    <td bgcolor:"white"><div align="center" class="style4">Enter Tx_Packets</div></td>
+                                    <td><input type="text" name="Tx_Packets"></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="44" bgcolor:"white"><div align="center" class="style4">Enter Tx_Bytes</div></td>
+                                    <td><input type="text" name="Tx_Bytes"></td>
+                                    <td bgcolor:"white"><div align="center" class="style4">Enter Rx_Packets</div></td>
+                                    <td><input type="text" name="Rx_Packets"></td>
+                                  </tr>
+                                  <tr>
+                                    <td width="289" height="44" bgcolor:"white"><div align="center" class="style4">Enter Rx_Bytes</div></td>
+                                    <td width="209"><input type="text" name="Rx_Bytes"></td>
+                                    <td width="331"><input name="submit" type="submit" class="style1" value="Predict"></td>
+                                    <td width="174">&nbsp;</td>
+                                  </tr>
+                                </table>
+					 </fieldset>
+				  </form>
+
+
+ 					<form role="form" method="POST" >
+						{% csrf_token %}
+						<fieldset>
+
+                            <hr>
+                            <div>
+                              <table width="681" height="75" border="0" align="center" >
+                                    <tr><td width="382" bgcolor:"white"><div align="center"><span class="style4">Predicted DDOS Attack Type </span></div></td>
+
+
+
+                                      <td width="261" bgcolor:"white" style="color:cadetblue; font-size:20px; font-family:fantasy" ><div align="center">{{objs}}</div></td></tr>
+                      </table>
+
+
+
+                            </div>
+
+
+
+
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="col-md-2">
+					<!-------null------>
+				</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+    <tr>

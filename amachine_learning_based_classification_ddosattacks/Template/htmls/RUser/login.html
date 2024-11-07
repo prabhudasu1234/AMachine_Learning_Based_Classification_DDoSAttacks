@@ -1,0 +1,114 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <!--background: url("{% static 'bg.jpg' %}");-->
+    <style>
+        body {
+            background-color:cadetblue;
+        }
+        .container-fluid {
+            padding: 40px;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+        }
+        #title {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .text-uppercase {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .style1 {
+            color: #120101;
+            font-weight: bold;
+        }
+        .style4 {
+            color: #00FFFF;
+            font-weight: bold;
+        }
+        .style5 {
+            font-family: 'Righteous', cursive;
+            color: #0b0101;
+            font-weight:lighter;
+            font-size:larger;
+        }
+        .style6 {
+            color: #f8f4f4;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:400%;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div>
+        <h2 class="style6 text-center" id="title">Assessing DDoS Detection Accuracy
+            through Semi-Supervised Techniques
+            </h2>
+        <!--<p class="text-center">
+            <span class="style1"><small id="passwordHelpInline" class="text-muted">DDoS attacks, machine learning, random forest, XGBoost, prediction.</small></span>
+        </p>-->
+        <hr>
+        <div class="row">
+            <div class="col-md-5">
+                <form role="form" method="POST">
+                    {% csrf_token %}
+                    <fieldset>
+                        <p class="text-uppercase pull-center">&nbsp;</p>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-2">
+                <!-------null------>
+            </div>
+            <div class="col-md-5">
+                <form method="POST" role="form">
+                    {% csrf_token %}
+                    <fieldset>
+                        {% load static %}
+                        <br><br><br>
+						<div class="text-center">
+							<img src=https://images.freeimages.com/fic/images/icons/560/fast_icon_users/128/user.png?fmt=webp&h=350 alt="My image">
+						</div>
+                     
+                        <p class="style5 text-center"> Sign in</p>
+                        <div class="text-center">
+                            <input type="text" name="username" placeholder="User Name" required>
+                        </div>
+                        <div class="text-center">
+                            <input type="password" name="password" placeholder="Password" required>
+                            <br><br>
+                        </div>
+                        <div class="text-center"> <!-- Centering the buttons -->
+                            <input type="submit" name="submit1" class="btn btn-md" value="sign in">
+                        </div>
+                        <br>
+                        <p class="style5 text-center"> Login as/Sign up: </p>
+                        <div class="text-center"> <!-- Centering the buttons -->
+                            <button class="btn btn-lg"><a href="{% url 'serviceproviderlogin' %}">Admin</a></button>
+                            <button class="btn btn-lg"><a href="{% url 'Register1' %}">Register</a></button>
+                        </div>
+						<!--<div class="text-center"> 
+                            <button class="btn btn-lg"><a href="{% url 'Register1' %}">Register</a></button>-->
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

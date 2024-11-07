@@ -1,0 +1,76 @@
+{% extends 'SProvider/Header.html' %}
+{% block researchblock %}
+
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+
+		<style>
+			body {background-color:#ffffff;}
+			.container-fluid {padding:50px;}
+			.container{background-color:white;padding:50px;   }
+			#title{font-family: 'Fredoka One', cursive;
+}
+			.text-uppercase{
+			font-family: 'Righteous', cursive;
+
+			}
+			input{
+			font-family:'Russo One', sans-serif;
+			font-size:15px;
+			}
+
+		.style1 {color: cadetblue;font-weight: bold;}
+        </style>
+
+	<body>
+	<div class="container-fluid">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-5">
+ 					<form role="form" method="POST" >
+						{% csrf_token %}
+						<fieldset>
+							<p class="text-uppercase pull-center style1">VIEW ALL REMOTE USERS !!! </p>
+                            <div class="viewclients">
+							  <table>
+								<tr>
+									<th  style="color:rgb(255, 255, 255);background-color: cadetblue;font-weight: lighter;">USER NAME</th>
+									<th  style="color:rgb(255, 255, 255);background-color: cadetblue;font-weight: lighter;">EMAIL</th>
+									<th  style="color:rgb(255, 255, 255);background-color: cadetblue;font-weight: lighter;">Gender</th>
+									<th  style="color:rgb(255, 255, 255);background-color: cadetblue;font-weight: lighter;">Address</th>
+									<th  style="color:rgb(255, 255, 255);background-color: cadetblue;font-weight: lighter;">Mob No</th>
+									<th  style="color:rgb(255, 255, 255);background-color: cadetblue;font-weight: lighter;">Country</th>
+									<th  style="color:rgb(255, 255, 255);background-color: cadetblue;font-weight: lighter;">State</th>
+									<th  style="color:rgb(255, 255, 255);background-color: cadetblue;font-weight: lighter;">City</th>
+								</tr>
+								<tr>
+								{% for o in objects %}
+									<td bgcolor="#FFFFFF" style="color:white"><span class="style1">{{o.username}}</span></td>
+									<td bgcolor="#FFFFFF" style="color:white"><span class="style1">{{o.email}}</span></td>
+									<td bgcolor="#FFFFFF" style="color:white"><span class="style1">{{o.gender}}</span></td>
+									<td bgcolor="#FFFFFF" style="color:white"><span class="style1">{{o.address}}</span></td>
+									<td bgcolor="#FFFFFF" style="color:white"><span class="style1">{{o.phoneno}}</span></td>
+									<td bgcolor="#FFFFFF" style="color:white"><span class="style1">{{o.country}}</span></td>
+									<td bgcolor="#FFFFFF" style="color:white"><span class="style1">{{o.state}}</span></td>
+									<td bgcolor="#FFFFFF" style="color:white"><span class="style1">{{o.city}}</span></td>
+								</tr>
+								{% endfor %}
+							</table>
+						</div>
+					  </fieldset>
+					</form>
+				</div>
+
+				<div class="col-md-2">
+					<!-------null------>
+				</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

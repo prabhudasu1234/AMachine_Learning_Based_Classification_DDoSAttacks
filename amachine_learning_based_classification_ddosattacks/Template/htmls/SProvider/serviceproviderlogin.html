@@ -1,0 +1,92 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<title>Login</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<head>
+
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+
+		<style>
+			body {background-color: cadetblue;}
+			.container-fluid {padding:50px;}
+			.container{background-color:white;padding:50px;   }
+			#title{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+			.text-uppercase{
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+			}
+		.style1 {
+	color: #ffffff;
+	font-weight: bold;
+}
+        .style2 {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #ffffff;
+	font-size: larger;
+	font-weight: bold;
+}
+.style5 {
+	color: #FF0099;
+	font-weight: bold;
+}
+        </style>
+	</head>
+	<body>
+	<div class="container-fluid">
+		<div>
+			<h2 class="text-center style1" id="title">Assessing DDoS Detection Accuracy
+				through Semi-Supervised Techniques</h2>
+			 
+ 			<hr><br><br><br><br><br>
+			<div class="row">
+
+
+				<div class="col-md-2">
+					<!-------null------>
+				</div>
+
+				<div class="col-md-8 text-center">
+ 				 		<form method="POST" role="form">
+							{% csrf_token %}
+
+						<fieldset>
+                             {% load static %}
+						<img src="https://images.freeimages.com/fic/images/icons/560/fast_icon_users/128/user.png?fmt=webp&h=350" alt="My image">
+							<p class="style2"> Login : </p>
+
+							<div class="form-group">
+								<input type="text" name="username"   placeholder="User Name" required>
+							</div>
+							<div class="form-group">
+								<input type="password" name="password"   placeholder="Password" required>
+							</div>
+							<div>
+								<input type="submit" name="submit1"  class="btn btn-md" value="Login">
+							</div>
+ 						</fieldset>
+						<br><br>
+						<button class="btn btn-lg "><a href="{% url 'login' %}">User Login</a></button> 
+				</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</body>
+
+
+</html>

@@ -1,0 +1,85 @@
+{% extends 'SProvider/Header.html' %}
+{% block researchblock %}
+
+
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+
+		<style>
+			body {background-color:#ffffff;}
+			.container-fluid {padding:50px;}
+			.container{background-color:white;padding:50px;   }
+			#title{font-family: 'Fredoka One', cursive;
+}
+			.text-uppercase{
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+			}
+			.tweettext{
+
+    border: 2px solid yellowgreen;
+    width: 1104px;
+    height: 442px;
+    overflow: scroll;
+    background-color:white;
+}
+		.style1 {
+	color: cadetblue;
+	font-weight: bold;
+	font-size: larger;
+}
+.style7 {color: cadetblue;font-weight: bold;font-size: larger;}
+        </style>
+
+	<body>
+	<div class="container-fluid">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-5">
+
+
+
+ 					<form role="form" method="POST" ><br><br>
+						{% csrf_token %}
+						<fieldset>
+                            <p align="center" class="text-uppercase pull-center style1">View DDOS Attack Type Ratio Results</p>
+                            <hr>
+                            <div>
+                               <table border="5" align="center" bordercolor="#FF00FF">
+                      <tr><td bgcolor:"white"><div align="center"><span class="style10 style7">Attack Type</span></div></td>
+                          <td bgcolor:"white"><div align="center"><span class="style10 style7">Ratio</span></div></td>
+                      </tr>
+                            {% for object in objs %}
+                      <tr>
+                                        <td bgcolor:"white" style="color:cadetblue; font-size:20px; font-family:fantasy" ><div align="center">{{object.names}}</div></td>
+                                        <td bgcolor:"white" style="font-family:monospace; font-size:19px; "><div align="center" class="style9"><span class="style7">{{object.ratio}}</span></div></td>
+                                 </tr>
+
+                                        {% endfor %}
+                      </table>
+
+
+
+                            </div>
+
+
+
+
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="col-md-2">
+					<!-------null------>
+				</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+    <tr>

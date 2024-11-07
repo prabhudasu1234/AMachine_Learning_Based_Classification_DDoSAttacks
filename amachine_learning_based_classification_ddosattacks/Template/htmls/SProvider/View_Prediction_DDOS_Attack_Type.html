@@ -1,0 +1,118 @@
+{% extends 'SProvider/Header.html' %}
+{% block researchblock %}
+
+
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+
+		<style>
+			body {background-color:#ffffff;}
+			.container-fluid {padding:50px;}
+			.container{background-color:white;padding:50px;   }
+			#title{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+			.text-uppercase{
+			font-family: 'Righteous', cursive;
+
+			}
+			.tweettext{
+
+    border: 2px solid yellowgreen;
+    width: 1104px;
+    height: 442px;
+    overflow: scroll;
+    background-color:;
+}
+		.style1 {
+	color: cadetblue;
+	font-weight: bold;
+}
+        </style>
+
+	<body>
+	<div class="container-fluid">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-5">
+ 					<form role="form" method="POST" >
+						{% csrf_token %}
+						<fieldset>
+							<p align="center" class="text-uppercase pull-center style1">View DDOS Attack Type Details </p>
+                            <hr>
+                            <div class="tweettext">
+                               <table border="10" align="center" bordercolor="cadetblue">
+                               <tr>
+
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">RID</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">Protocol</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">ip_src</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">ip_dst</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">pro_srcport</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">pro_dstport</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">flags_ack</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">ip_flags_mf</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">ip_flags_df</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">ip_flags_rb</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">pro_seq</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">pro_ack</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">frame_time</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">Packets</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">Bytes1</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">Tx_Packets</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">Tx_Bytes</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">Rx_Packets</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">Rx_Bytes</span></div></td>
+<td bgcolor:"white"><div align="center" class="style1"><span class="style8 style6">Prediction</span></div></td>
+
+
+
+                      </tr>
+                            {% for object in list_objects %}
+                      <tr>
+
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.RID}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.Protocol}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.ip_src}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.ip_dst}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.pro_srcport}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.pro_dstport}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.flags_ack}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.ip_flags_mf}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.ip_flags_df}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.ip_flags_rb}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.pro_seq}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.pro_ack}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.frame_time}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.Packets}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.Bytes1}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.Tx_Packets}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.Tx_Bytes}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.Rx_Packets}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.Rx_Bytes}}</td>
+<td bgcolor="#FFFFFF" style="color:cadetblue; font-size:20px; font-family:fantasy" >{{object.Prediction}}</td>
+
+                        </tr>
+
+                                        {% endfor %}
+                      </table>
+
+                            </div>
+
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="col-md-2">
+					<!-------null------>
+				</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+    <tr>

@@ -1,0 +1,72 @@
+{% extends 'RUser/Header.html' %}
+{% block userblock %}
+
+<!--<link rel="icon" href="images/icon.png" type="image/x-icon" />-->
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+
+		<style>
+			body {background-color:cadetblue}
+			.container-fluid {padding:50px;}
+			.container{background-color:cadetblue ;padding:50px;   }
+			#title{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+			.text-uppercase{
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+			}
+.style2 {color: #ffffff;font-size: 120%;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        </style>
+
+	<body>
+	<div class="container-fluid">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-5">
+ 				<table width="879" border="0" align="center">
+                                <tr>
+                                    <td width="148" height="34" bgcolor:"white"><span class="style2">Username</span></td>
+                                  <td width="225"><span class="style9">{{object.username}}</span></td>
+                                    <td width="157" bgcolor:"white"><span class="style7 style2">Email Id </span></td>
+                                    <td width="321"><span class="style9">{{object.email}}</span></td>
+                      </tr>
+                                  <tr>
+                                    <td height="38" bgcolor:"white"><span class="style2">Mobile Number </span></td>
+                                    <td><span class="style9">{{object.phoneno}}</span></td>
+                                    <td bgcolor:"white"><span class="style7 style2">Gender</span></td>
+                                    <td><span class="style9">{{object.gender}}</span></td>
+                                  </tr>
+
+                                  <tr>
+                                    <td height="34" bgcolor:"white"><span class="style2">Address</span></td>
+                                    <td><span class="style9">{{object.address}}</span></td>
+                                    <td bgcolor:"white"><span class="style7 style2">Country</span></td>
+                                    <td><span class="style9">{{object.country}}</span></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="32" bgcolor:"white"><span class="style2">State</span></td>
+                                    <td><span class="style9">{{object.state}}</span></td>
+                                    <td bgcolor:"white"><span class="style7 style2">City</span></td>
+                                    <td><span class="style9">{{object.city}}</span></td>
+                                  </tr>
+                                  <tr>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                  </tr>
+                                </table>
+				</div>
+
+				<div class="col-md-2">
+					<!-------null------>
+				</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
