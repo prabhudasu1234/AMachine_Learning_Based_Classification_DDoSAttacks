@@ -1,0 +1,42 @@
+A Machine Learning-Based Classification and Prediction Technique for DDoS Attacks
+
+IEEE Access and Machine Learning,Volume:10,Issue Date:17.February.2022
+
+DDoS attacks, machine learning, random forest, XGBoost, prediction.
+
+AMachine_Learning_Based_Classification_DDoSAttacks
+
+
+
+amachine_learning_based_classification_ddosattacks
+
+
+ddos_attacks_prediction
+
+
+RID
+Protocol
+ip_src
+ip_dst
+pro_srcport
+pro_dstport
+flags_ack
+ip_flags_mf
+ip_flags_df
+ip_flags_rb
+pro_seq
+pro_ack
+frame_time
+Packets
+Bytes1
+Tx_Packets
+Tx_Bytes
+Rx_Packets
+Rx_Bytes
+Prediction
+
+
+
+
+
+
