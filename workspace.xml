@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec51db27-65ce-4394-af1d-1cdd4e17b141" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Service_Provider/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="165" column="23" lean-forward="false" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+              <folding>
+                <element signature="e#1#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="209" column="7" lean-forward="false" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#675#707#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="72" lean-forward="false" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="153" lean-forward="false" selection-start-line="50" selection-start-column="153" selection-end-line="50" selection-end-column="153" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Register1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="153" lean-forward="false" selection-start-line="54" selection-start-column="153" selection-end-line="54" selection-end-column="153" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Find_View_Prediction_DDOS_Attack_Type_Ratio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Find_View_Prediction_DDOS_Attack_Type_Ratio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="53" column="103" lean-forward="false" selection-start-line="53" selection-start-column="103" selection-end-line="53" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Prediction_DDOS_Attack_Type.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/View_Prediction_DDOS_Attack_Type.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/asgi.py" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/wsgi.py" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/models.py" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/View_Prediction_Crypto_Currency_Financial_Risk_Type.html" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/settings.py" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/serviceproviderlogin.html" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Register1.html" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/login.html" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Header.html" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/urls.py" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Header.html" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Find_View_Prediction_DDOS_Attack_Type_Ratio.html" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/View_Prediction_DDOS_Attack_Type.html" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/views.py" />
+        <option value="$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Service_Provider/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1004" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+              <item name="Remote_User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+              <item name="Service_Provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="htmls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="htmls" type="462c0819:PsiDirectoryNode" />
+              <item name="RUser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="amachine_learning_based_classification_ddosattacks" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="htmls" type="462c0819:PsiDirectoryNode" />
+              <item name="SProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMachine_Learning_Based_Classification_DDoSAttacks" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec51db27-65ce-4394-af1d-1cdd4e17b141" name="Default" comment="" />
+      <created>1661150493700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661150493700</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.668239" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Service_Provider/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="218" column="8" lean-forward="false" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#675#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="72" lean-forward="false" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="153" lean-forward="false" selection-start-line="50" selection-start-column="153" selection-end-line="50" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Register1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="153" lean-forward="false" selection-start-line="54" selection-start-column="153" selection-end-line="54" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Find_View_Prediction_DDOS_Attack_Type_Ratio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="103" lean-forward="false" selection-start-line="53" selection-start-column="103" selection-end-line="53" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/View_Prediction_DDOS_Attack_Type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/View_Prediction_Crypto_Currency_Financial_Risk_Type.html" />
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Service_Provider/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="137" column="3" lean-forward="false" selection-start-line="137" selection-start-column="3" selection-end-line="162" selection-end-column="27" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="115" lean-forward="false" selection-start-line="44" selection-start-column="115" selection-end-line="44" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="153" lean-forward="false" selection-start-line="50" selection-start-column="153" selection-end-line="50" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Register1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="153" lean-forward="false" selection-start-line="54" selection-start-column="153" selection-end-line="54" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Find_Crypto_Currency_Financial_Risk_Type_Ratio.html" />
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="115" lean-forward="false" selection-start-line="44" selection-start-column="115" selection-end-line="44" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/serviceproviderlogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="155" lean-forward="false" selection-start-line="52" selection-start-column="155" selection-end-line="52" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="66" lean-forward="false" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/asgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/View_Prediction_Crypto_Currency_Financial_Risk_Type.html" />
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Find_Crypto_Currency_Financial_Risk_Type_Ratio.html" />
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/serviceproviderlogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="155" lean-forward="false" selection-start-line="52" selection-start-column="155" selection-end-line="52" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Register1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="153" lean-forward="false" selection-start-line="54" selection-start-column="153" selection-end-line="54" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="153" lean-forward="false" selection-start-line="50" selection-start-column="153" selection-end-line="50" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/RUser/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="72" lean-forward="false" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/amachine_learning_based_classification_ddosattacks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#675#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/Find_View_Prediction_DDOS_Attack_Type_Ratio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="103" lean-forward="false" selection-start-line="53" selection-start-column="103" selection-end-line="53" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Template/htmls/SProvider/View_Prediction_DDOS_Attack_Type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Remote_User/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="209" column="7" lean-forward="false" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amachine_learning_based_classification_ddosattacks/Service_Provider/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="165" column="23" lean-forward="false" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
